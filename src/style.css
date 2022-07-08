@@ -1,0 +1,124 @@
+head, body, footer {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  background: #FF8383;
+  padding: 20px 0;
+  margin: 0 0 20px 0;
+}
+
+header h1 a img {
+  width: 220px;
+  margin: 0 0 0 40px;
+}
+
+.caixa {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.menu-header {
+  display: inline-flex;
+  position: absolute;
+  right: 50px;
+  top: 100px;
+}
+
+.menu-header li a {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 30px;
+  text-decoration: none;
+  margin: 0 10px 0 10px;
+  transition: 1s all;
+}
+
+
+.menu-header li a:hover {
+  color:#7CB435;
+  -moz-box-shadow:0 3px 10px 0 #ffffff;
+  -webkit-box-shadow:0 3px 10px 0 #ffffff;
+  text-shadow:0px 0px 5px #ffffff;
+  text-decoration: underline;
+}
+
+footer {
+  background: #7CB435;
+  width: 100%;
+  padding: 20px 0;
+  margin: 20px 0 0 0;
+  display: inline-flex;
+}
+
+footer p {
+  font-size: 30px;
+}
+
+.formulario {
+  margin: 0 0 0 40px;
+  color: #ffffff;
+}
+
+form label {
+  display: block;
+  padding: 10px 0 10px 0;
+}
+
+.enviar {
+  display: block;
+  padding: 10px;
+  margin: 10px 0 0 0;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 2s all;
+  cursor: pointer;
+}
+
+.enviar:hover {
+  background: #FF8383;
+  transform: scale(1.2);
+}
+
+input, textarea {
+  background: #A9D275;
+  border: none;
+  border-radius: 5px;
+}
+
+footer h1 a img {
+  width: 150px;
+  height: 150px;
+  margin: 0 0 0 150px;
+}
+
+.meio-rodape {
+  display: block;
+  margin: 0 200px;
+}
+
+.social {
+  margin: 40px 0;
+  display: inline-flex;
+}
+
+.social a img {
+  width: 30px;
+  height: 30px;
+  display: inline-flex;
+  padding: 0 30px;
+}
+
+.menu-footer li {
+  text-align: center;
+  padding: 25px 0;
+}
+
+.menu-footer li a {
+  color: #ffffff;
+  font-size: 25px;
+  text-decoration: none;
+}
+
